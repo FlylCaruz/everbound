@@ -1,0 +1,14 @@
+build/
+dist/
+publish/
+Host/
+*.dpapi
+*.pfx
+*.key
+*private*
+client.json
+server.json
+progression-data/
+backup*/
+*.sl2*
+*.co2*
