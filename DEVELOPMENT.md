@@ -36,3 +36,5 @@ A arte de fundo está em `assets/everbound-world.png`. Foi criada com o gerador 
 Prompt utilizado: “Wide 16:9 panoramic painterly dark fantasy environment for an Elden Ring mod launcher named EverBound. A lonely ruined medieval castle and a vast luminous ancient tree with fine golden branches on the right; distant mountains and gold dust in quiet mist. Aged gold, charcoal and olive, solemn twilight, worn stone. Dark negative space on the left and bottom for interface controls. No characters, lettering, logos, watermark, buttons or borders.”
 
 Verificação integrada de abertura: Verify-Launch.cs chamou Game.Launch com o perfil existente e confirmou a criação do processo do Elden Ring. Os módulos nativos foram conferidos em seguida.
+
+Publicação inicial confirmada em 23/11/2026: `https://github.com/FlylCaruz/everbound/releases/tag/v2.0.0`. `Verify-Remote.cs` consultou o catálogo público sem autenticação, validou a assinatura, baixou o ZIP, instalou os 28 arquivos em uma pasta isolada e verificou a instalação. O perfil atual foi atualizado com backup, mantendo credenciais e progressão, e a abertura com o Mod Engine 2 empacotado foi confirmada.

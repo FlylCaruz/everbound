@@ -2,6 +2,8 @@
 
 Launcher do projeto EverBound para Elden Ring 1.17, com instalação, atualização, reparo e inicialização do perfil.
 
+![Launcher EverBound](screenshots/launcher.png)
+
 ## Para jogar
 
 1. Baixe **EverBoundLauncher.exe** na [versão mais recente](https://github.com/FlylCaruz/everbound/releases/latest).
@@ -41,7 +43,7 @@ O pacote atual oferece chat entre jogadores. Combate e mundo compartilhados são
 
 ## Publicação
 
-Os binários ficam em **Releases**, separados do código do launcher. `manifest.json` e `manifest.sig` formam o catálogo de atualizações. O launcher incorpora a chave pública de publicação e verifica as assinaturas e os hashes dos arquivos.
+Os binários ficam em **Releases**, separados do código do launcher. O ZIP contém o cliente completo; as DLLs do EverBound também estão disponíveis individualmente. `manifest.json` e `manifest.sig` formam o catálogo de atualizações. O launcher incorpora a chave pública de publicação e verifica as assinaturas e os hashes dos arquivos.
 
 A chave privada de publicação permanece somente no computador do responsável, protegida pelo Windows. Ela não é enviada ao repositório nem incluída no programa. As próximas versões precisam ser assinadas com essa mesma chave para serem aceitas pelos launchers já distribuídos.
 
